@@ -11,6 +11,14 @@ body {
     padding-right: 15px;
 }
 
+/*Makes navbar not ugly*/
+.navbar {
+    height: 50px;
+    border: 0;
+    box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input,
 select,
@@ -30,3 +38,4 @@ textarea {
 .navbar-inverse {
     background-color: #1c9cfc !important;
 }
+
