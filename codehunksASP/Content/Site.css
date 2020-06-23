@@ -27,3 +27,6 @@ textarea {
         padding: 0;
     }
 }
+.navbar-inverse {
+    background-color: #1c9cfc !important;
+}
