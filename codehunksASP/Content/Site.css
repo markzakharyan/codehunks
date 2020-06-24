@@ -11,13 +11,34 @@ body {
     padding-right: 15px;
 }
 
+#navlogo {
+    padding: 5px;
+    display: inline-block;
+}
+
+#navlogo > img {
+    height: 35px;
+    vertical-align: middle;
+    transition: transform 0.25s;
+}
+
+#navlogo:hover > img {
+    transform: scale(1.25);
+}
 /*Makes navbar not ugly*/
 .navbar {
-    height: 50px;
+    min-height: 0;
     border: 0;
     box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
+.navbar-inverse {
+    background-color: #1c9cfc !important;
+}
+
+.btn {
+    transition: background 0.25s;
+}
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input,
@@ -35,7 +56,5 @@ textarea {
         padding: 0;
     }
 }
-.navbar-inverse {
-    background-color: #1c9cfc !important;
-}
+
 

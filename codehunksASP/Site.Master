@@ -59,7 +59,7 @@
                     </button>
                     <!--<a class="navbar-brand" runat="server" href="~/">Codehunks</a>-->
                     <!--Previous demensions: 110, 75-->
-                    <a href="./"><img runat="server" src="~/images/shortLogoWhiteBlack.png" width=73 height=50></a>
+                    <a id="navlogo" href="./"><img runat="server" src="~/images/shortLogoWhiteBlack.png"></a>
 
                 </div>
                 <div class="navbar-collapse collapse">
