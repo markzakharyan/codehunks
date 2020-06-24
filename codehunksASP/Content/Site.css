@@ -36,7 +36,19 @@ body {
     background-color: #1c9cfc !important;
 }
 
-.btn {
+.navbar-inverse .navbar-toggle {
+    border: 0;    
+}
+
+.navbar-collapse {
+    border: 0;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.btn, button {
     transition: background 0.25s;
 }
 
